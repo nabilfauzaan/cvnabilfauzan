@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+	height: 100%;
+	margin:0;
+	background-image: url("img/apple.jpg");
+	font-family: calibri;
+	height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}	
+#foto{
+	border-radius: 800px;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	top: 20px;
+	left: 450px;
+
+}
+#riwayat{
+	margin-left: 920px;
+	margin-top: -50px;
+	font-family: Harrington;
+	font-weight: bold;
+	
+}
+#bio{
+	margin-left: 80px;
+	font-family: Harrington;
+	font-weight: bold;
+}
+#hobi{
+	margin-left: 80px;
+	margin-top: 10px;
+	font-family: Harrington;
+	font-weight: bold;
+}
+#pengalaman{
+	margin-left: 920px;
+	font-family: Harrington;
+	font-weight: bold;
+}
+
+p{
+	color: black;
+	text-align: center;
+	font-family: Informal Roman;
+}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+		<marquee style="font-family: Cooper Black"direction="right"scrollmount="2" align="center"> FOLLOW INSTAGRAM @NABILFAUZAAN</marquee>
+		<p align="center"><b style="font-size: 50px">CURRICULUM VITAE</b></p><br>
+			<img src="img/Nabil.jpg" id="foto">
+		<div >
+		<table cellpadding="8" id="bio">
+			<tr><td><b style="font-family: Showcard Gothic; font-size: 30px" >BIODATA </b></td></tr>
+			<tr>
+				<td> Nama Lengkap </td><td> : </td><td> Muhammad Nabil Fauzan </td>
+			</tr>
+			<tr>
+				<td> Tempat, Tanggal Lahir </td><td> : </td><td> Makassar, 2 Oktober 1999 </td>
+			</tr>
+			<tr>
+				<td> Jenis Kelamin </td><td> : </td><td> Laki-laki </td>
+			</tr>
+			<tr>
+				<td> Agama </td><td> : </td><td> Islam </td>
+			</tr>
+			<tr>
+				<td> Email </td><td> : </td><td> muhnabil84@gmail.com </td>
+			</tr>
+			<tr>
+				<td> Nomor Telepon </td><td> : </td><td> 082334392111 </td>
+				
+			</tr>
+		</div>
+	<div>
+		<table cellpadding="8" id="riwayat">
+			<tr><td><b style="font-family: Showcard Gothic;  font-size: 30px"> RIWAYAT PENDIDIKAN </b></td>
+			</tr>
+			<tr>
+				<td> SD Nusantara Makassar </td><td> : </td><td> 2005-2011 </td>
+			</tr>
+			<tr>
+				<td> SMP Islam Athirah Makassar </td><td> : </td><td> 2011-2014 </td>
+			</tr>
+			<tr>
+				<td> SMA Islam Athirah Makassar </td><td> : </td><td> 2014-2017 </td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<table cellpadding="8" id="hobi">
+			<tr><td><b style="font-family: Showcard Gothic;  font-size: 30px"> HOBI </b></td>
+			</tr>
+				<td> Futsal </td><td>
+			</tr>
+			<tr>
+				<td> Kuliner </td>
+			</tr>
+			<tr>
+				<td> Nonton Film </td>
+			</tr>
+		</table>
+	</div>
+<div>
+		<table cellpadding="8" id="pengalaman">
+			<tr><td><b style="font-family: Showcard Gothic;  font-size: 30px"> PENGALAMAN ORGANISASI </b></td>
+			</tr>
+			<tr>
+				<td> OSIS SMA Islam Athirah Makassar </td><td> : </td><td> Ketua Bidang Olahraga dan Seni </td>
+			</tr>
+		</table>
+</div>
+
+<div>
+		<table cellpadding="8" id="bio" style="margin-top: 10px">
+			<tr><td><b style="font-family: Showcard Gothic;  font-size: 30px"> PRIBADI </b></td>
+			</tr>
+				<td> Jujur </td><td>
+			</tr>
+			<tr>
+				<td> Disiplin </td>
+			</tr>
+			<tr>
+				<td> Pantang Menyerah </td>
+			</tr>
+			<tr>
+				<td> Sabar </td>
+			</tr>
+		</table>
+</div>
+	<marquee style="font-family: Cooper Black" direction="right"scrollmount="2" align="center"> TERIMA KASIH!!!</marquee>
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDESGS0GSeRJRLdUHGW_PgMYm8z1DUh2U8",
+    authDomain: "cv-nabil.firebaseapp.com",
+    databaseURL: "https://cv-nabil.firebaseio.com",
+    projectId: "cv-nabil",
+    storageBucket: "cv-nabil.appspot.com",
+    messagingSenderId: "860855305404"
+  };
+  firebase.initializeApp(config);
+</script>
+</html>
